@@ -9,6 +9,7 @@ itemCoords["pillows"] = 204
 
 for i in range(999):
     roomArray.append(False)
+    itemArray.append(False)
 
 roomArray[0] = "You find yourself in the basement of house on a chair. There is a loose nail in the chair. There are walls to the North and West of you. To the East there is a rug, and to the South there are stairs." 
 roomArray[1] = "To the South is the stairs. To the east there is something in a frame, but you don't know what it is."
@@ -20,6 +21,10 @@ roomArray[103] = "The stairs lie to the west and a bright light hangs overhead. 
 roomArray[203] = "The light to the west illuminates the area and reveals the spatula in the kitchen, to the east."
 roomArray[104] = "The book pile sits to the north and a tall stack of pillows are shown to the east."
 roomArray[204] = "The pillows surround you, creating a fluffy padding on the floor. Another light shines to the north, revealing an enterance to another room."
+itemArray[0] = "Nail"
+itemArray[100] = "Watch"
+itemArray[201] = "High School Diploma"
+
 
 def doesRoomExist(roomNumber):
     try:
