@@ -21,6 +21,16 @@ itemArray[0] = "Nail"
 itemArray[100] = "Watch"
 itemArray[201] = "High School Diploma"
 
+if location == 0:
+    print("You have a Nail in your inventory.")
+    inventory.append("Nail")
+if location == 100:
+    print("You have a very valuable watch.")
+    inventory.append("Watch")
+if location == 201:
+    print("You now have a high school diploma.")
+    inventory.append("Diploma")
+
 def main():
   location = 0
   print("The Escape")
