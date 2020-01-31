@@ -21,6 +21,9 @@ itemArray[0] = "Nail"
 itemArray[100] = "Watch"
 itemArray[201] = "High School Diploma"
 
+if location == 402:
+    print("You have cheetos, good job")
+    inventory.append("Cheetos")
 if location == 0:
     print("You have a Nail in your inventory.")
     inventory.append("Nail")
