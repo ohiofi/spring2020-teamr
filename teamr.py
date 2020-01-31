@@ -2,8 +2,10 @@ from random import *
 import time
 roomNumbers = [0,1,2,3,100,200,101,201,103,104,105,203,204,302,303.402,403]
 roomArray = [] 
+itemArray = []
 for i in range(999):
     roomArray.append(False)
+    itemArray.append(False)
 
 
 
