@@ -17,6 +17,9 @@ roomArray[200] = "To the north and east there is a wall. To the south you see a 
 roomArray[101] = "To the north of you there is a moist rug. To the east of you there is something that looks like a paper in a picture frame."
 roomArray[201] = "There is a wall to the east and south of you. In the corner you see a high school diploma in the picture frame."
 
+itemArray[0] = "Nail"
+itemArray[100] = "Watch"
+itemArray[201] = "High School Diploma"
 
 def main():
   location = 0
